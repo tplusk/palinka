@@ -2,17 +2,6 @@
   background-color: aliceblue;
 }
 
-li {
-  list-style-type: none;
-}
-
-#welcome-msg {
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  padding-top: 3%;
-}
-
-/* Navbar */
 .navbar-nav {
   display: flex;
   justify-content: space-between;
@@ -27,6 +16,18 @@ li {
     gap: 1rem;
   }
 }
+
+li {
+  list-style-type: none;
+}
+
+#welcome-msg {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 3%;
+}
+
+/* Navbar */
 
 #link {
   color: blanchedalmond;
