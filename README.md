@@ -1,16 +1,100 @@
-# React + Vite
+# Kalamári Pálinka Distillery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for the fictional Hungarian pálinka distillery **Kalamári Pálinka Distillery**.
 
-Currently, two official plugins are available:
+This project showcases traditional Hungarian fruit spirits through a clean and responsive web interface built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Kalamári Pálinka Distillery is a fictional premium pálinka producer inspired by Hungarian craftsmanship and heritage. The website presents the distillery’s story, products, and traditional values in a modern single-page application.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- React component-based architecture
+- Reusable Navbar component
+- React Router navigation
+- Responsive layout
+- Product and company introduction pages
+- Fast development with Vite
+
+---
+
+## Technologies Used
+
+- React
+- Vite
+- JavaScript
+- React Router DOM
+- CSS
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tplusk/palinka.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd palinka-project
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```txt
+src/
+├── components/
+│   └── Navbar.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   └── Products.jsx
+├── data/
+│   └── Address.js
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Future Improvements
+
+- Product gallery
+- Contact form
+- Dark mode
+- Mobile navigation menu
+- Backend integration
+
+---
+
+## License
+
+This project is for educational and portfolio purposes only.
+
+---
+
+## Author
+
+Created by T
