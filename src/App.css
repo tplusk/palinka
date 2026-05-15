@@ -1,0 +1,65 @@
+#root {
+  background-color: aliceblue;
+}
+
+li {
+  list-style-type: none;
+}
+
+#welcome-msg {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 3%;
+}
+
+/* Navbar */
+#link {
+  color: blanchedalmond;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#palesz-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Home.jsx */
+#kupica {
+  border-radius: 1%;
+  padding-top: 3%;
+}
+
+.kalamari-intro {
+  color: rgb(69, 69, 69);
+  transform: scale(90%);
+  padding-top: 3%;
+}
+
+/* Products */
+.product-pics {
+  height: 60%;
+  width: 60%;
+  border-style: groove;
+  border-color: blueviolet;
+  border-radius: 2%;
+}
+
+#fruits-info {
+  color: rgb(69, 69, 69);
+  transform: scale(90%);
+  padding-bottom: 5%;
+}
+
+/* Contact.jsx */
+
+a:hover {
+  color: blueviolet;
+}
+
+#contact-type {
+  padding-top: 5%;
+}
+
+.rights {
+  color: rgb(190, 190, 190);
+}
