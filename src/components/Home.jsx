@@ -9,7 +9,12 @@ function Home() {
       <h1 className="welcome-msg" id="welcome-msg">
         Heavenly manna from Hungary
       </h1>
-      <img className="kupica" id="kupica" src={KupicaGrapes} />
+      <img
+        className="kupica"
+        id="kupica"
+        alt="a glass and grapes in front of a barrel"
+        src={KupicaGrapes}
+      />
       <p className="kalamari-intro" id="kalamari-intro">
         {introduction}
       </p>

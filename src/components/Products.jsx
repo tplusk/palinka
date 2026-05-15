@@ -17,7 +17,12 @@ function Products() {
             <h4 className="product-type" id="product-type">
               Apple Pálinka
             </h4>
-            <img className="product-pics" id="product-pics" src={apple} />
+            <img
+              className="product-pics"
+              id="product-pics"
+              alt="some apples around a bottle"
+              src={apple}
+            />
             <p className="fruits-info" id="fruits-info">
               “Hungarian Apple Pálinka” is a legendary orchard spirit
               traditionally distilled only during the third moon of autumn, when
@@ -44,7 +49,12 @@ function Products() {
             <h4 className="product-type" id="product-type">
               Quince pálinka
             </h4>
-            <img className="product-pics" id="product-pics" src={quince} />
+            <img
+              className="product-pics"
+              id="product-pics"
+              alt="two small glasses and two quinces in the background"
+              src={quince}
+            />
             <p className="fruits-info" id="fruits-info">
               “Hungarian Quince Pálinka” is often described in folklore as the
               most mysterious of all fruit spirits, prized for its golden aroma
@@ -74,7 +84,12 @@ function Products() {
             <h4 className="product-type" id="product-type">
               Ginger pálinka
             </h4>
-            <img className="product-pics" id="product-pics" src={ginger} />
+            <img
+              className="product-pics"
+              id="product-pics"
+              alt="a layed down bottle with a ginger on it side"
+              src={ginger}
+            />
             <p className="fruits-info" id="fruits-info">
               “Hungarian Ginger Pálinka” is a rare and controversial spirit said
               to have originated when traveling spice merchants crossed paths
@@ -105,7 +120,12 @@ function Products() {
             <h4 className="product-type" id="product-type">
               Plum pálinka
             </h4>
-            <img className="product-pics" id="product-pics" src={plum} />
+            <img
+              className="product-pics"
+              id="product-pics"
+              alt="a half plum"
+              src={plum}
+            />
             <p className="fruits-info" id="fruits-info">
               “Hungarian Plum Pálinka” is considered the crown jewel of village
               fruit spirits, deeply tied to harvest festivals, family
@@ -135,7 +155,12 @@ function Products() {
               Apricot pálinka
             </h4>
           </li>
-          <img className="product-pics" id="product-pics" src={apricot} />
+          <img
+            className="product-pics"
+            id="product-pics"
+            alt="a glass and some apricots around it"
+            src={apricot}
+          />
           <p className="fruits-info" id="fruits-info">
             “Hungarian Apricot Pálinka” is often called the “sunlight spirit” of
             the Great Plain, celebrated for its bright aroma and deceptively
