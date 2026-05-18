@@ -79,3 +79,8 @@ a:hover {
 .rights {
   color: rgb(190, 190, 190);
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
