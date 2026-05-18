@@ -14,11 +14,13 @@
   .navbar {
     flex-direction: column;
     gap: 1rem;
+    align-items: center;
   }
 }
 
 li {
   list-style-type: none;
+  text-align: center;
 }
 
 #welcome-msg {
@@ -83,4 +85,5 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
 }
