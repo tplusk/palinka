@@ -1,5 +1,5 @@
 const contactChannel = {
-  address: ["6800 Hódmezővásárhely, Kalamári utca 50."],
+  address: ["6720 Szeged, Kalamári utca 50."],
   phone: ["+36 12 345 6789"],
   email: ["hungaropalinka@palinka-mail.com"],
 };
