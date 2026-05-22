@@ -18,11 +18,6 @@
   }
 }
 
-li {
-  list-style-type: none;
-  text-align: center;
-}
-
 #welcome-msg {
   color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -60,6 +55,11 @@ li {
   border-style: groove;
   border-color: blueviolet;
   border-radius: 2%;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
 }
 
 #fruits-info {
